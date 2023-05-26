@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather-APP</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="bg">
+    <div class="main">
+    <section>
+      
+      <div class ="header">
+        <h2>Weather of city</h2>
+        <div class="search">
+          <input type="text" placeholder="Enter city name"/>
+          <button><img src="./img/search.png" alt="" /></button>
+        </div>
+        </div>
+        <div class="container">
+        <div class="weather">
+          <img src="./img/clouds.png" alt="" class="icon" />
+          <h1 class="celcius"></h1>
+          <h2 class="city"></h2>
+          <div class="detail">
+            <div class="col">
+              <h3>Humidity</h3>
+              <img src="./img/humidity.png" alt="" style="width: 60px" />
+              <div class="humidity">
+                <p class="winds"></p>
+              </div>
+            </div>
+            <div class="col">
+              <h3>wind</h3>
+              <img src="./img/wind.png" alt="" style="width: 60px" />
+              <div class="wind">
+                <p class="winds"></p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- -------------- -->
+        <div id="iconContainer">
+          <h5 style="text-align: left;margin-left: 100px;">Daily forecast for 8 days</h5>
+      <hr>
+          <div class="icons-weather">
+            <p class="weather-weather" id="day1">Friday</p>
+            <h4 class="city" style="text-align: center"></h4>
+            <div class="image">
+              <img src="./img/rain.png" alt="" class="imgClass" id="img1" />
+            </div>
+            <p class="minValue" id="day1Min">Loading...</p>
+            <p class="minValue" id="day1Max">Loading...</p>
+          </div>
+          <div class="icons-weather">
+            <h4 class="city" style="text-align: center"></h4>
+            <p class="weather-weather" id="day2">Saturday</p>
+            <div class="image">
+              <img src="#" alt="" class="imgClass" id="img2" />
+            </div>
+            <p class="minValue" id="day2Min">Loading...</p>
+            <p class="minValue" id="day2Max">Loading...</p>
+          </div>
+          <div class="icons-weather">
+            <h4 class="city" style="text-align: center"></h4>
+            <p class="weather-weather" id="day3">Sunday</p>
+            <div class="image">
+              <img src="#" alt="" class="imgClass" id="img3" />
+            </div>
+            <p class="minValue" id="day3Min">Loading...</p>
+            <p class="minValue" id="day3Max">Loading...</p>
+          </div>
+          <div class="icons-weather">
+            <p class="weather-weather" id="day4">Monday</p>
+            <h4 class="city" style="text-align: center"></h4>
+            <div class="image">
+              <img src="#" alt="" class="imgClass" id="img4" />
+            </div>
+            <p class="minValue" id="day4Min">Loading...</p>
+            <p class="minValue" id="day4Max">Loading...</p>
+          </div>
+          <div class="icons-weather">
+            <p class="weather-weather" id="day5">Tuesday</p>
+            <h4 class="city" style="text-align: center"></h4>
+            <div class="image">
+              <img src="#" alt="" class="imgClass" id="img5" />
+            </div>
+            <p class="minValue" id="day5Min">Loading...</p>
+            <p class="minValue" id="day5Max">Loading...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+       
+        </div>
+     </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
